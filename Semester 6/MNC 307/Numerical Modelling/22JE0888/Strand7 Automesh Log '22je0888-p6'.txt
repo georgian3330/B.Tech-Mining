@@ -1,0 +1,23 @@
+ ________________________________________________________________________________
+
+ Strand7 R2.4.6 AUTOMESH LOG
+ ________________________________________________________________________________
+
+ File:                         22je0888-p6
+ Date:                         27 March 2025
+ Time:                         10:39:48 am
+
+ MESHING OPTIONS:              Auto
+ Maximum edge length:          5.0 m [0.976563%]
+ Element type:                 Quad4
+ Property type:                Face property
+ ________________________________________________________________________________
+
+ Remarks:
+
+ Automeshed successfully.
+
+ The following faces were successfully meshed:
+       1       2       3       4       5       6       7       8       9      10
+      11      12      13
+
