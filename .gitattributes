@@ -1,0 +1,2 @@
+Semester[[:space:]]6/MNC[[:space:]]307/Numerical[[:space:]]Modelling/*.mkv filter=lfs diff=lfs merge=lfs -text
+Semester[[:space:]]6/MND[[:space:]]412/*.pdf filter=lfs diff=lfs merge=lfs -text
