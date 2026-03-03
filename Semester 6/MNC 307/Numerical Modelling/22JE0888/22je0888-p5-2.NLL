@@ -1,0 +1,648 @@
+ ____________________________________________ 
+*Solution commenced on 27/03/2025 at 10:55:37 
+  
+ Strand7 [2.4.6][Solver Build: 24141222] (32-Bit) 
+  
+ ANALYSIS TYPE               : NONLINEAR STATIC 
+  
+ COMPUTER NAME               : DESKTOP-6D3TG3F 
+ USER LOGON NAME             : ADMIN 
+ CPU                         : 12th Gen Intel(R) Core(TM) i9-12900 
+ USABLE PHYSICAL MEMORY      : 4.0 GB 
+ USABLE VIRTUAL MEMORY       : 3.0 GB 
+  
+ MODEL FILE                  : "C:\Users\ADMIN\Desktop\22JE0888\22je0888-p5-2.st7" 
+ RESULT FILE                 : "C:\Users\ADMIN\Desktop\22JE0888\22je0888-p5-2.NLA" 
+ SCRATCH PATH                : "C:\Users\ADMIN\Strand7\Tmp\" 
+  
+ TOTALS 
+ Nodes                       : 10450 
+ Beams                       :     0 
+ Plates                      : 10275 
+ Bricks                      :     0 
+ Links                       :     0 
+  
+ SOLVER UNITS 
+ Length                      : m 
+ Mass                        : kg 
+ Force                       : N 
+ Stress                      : Pa 
+  
+ FREEDOM CASE                : "1: Freedom Case 1" 
+  
+ NONLINEAR GEOMETRY          : Considered 
+ NONLINEAR MATERIAL          : Considered 
+ MATRIX UPDATE               : Every iteration 
+ AUTOMATIC LOAD STEPPING     : None 
+ NUMBER OF LOAD INCREMENTS   : 6 
+ SAVE RESTART FILE           : No 
+  
+ CURRENT LOAD FACTORS: 
+  1.00000E+00  1.00000E+00 
+  
+ START OF STAGE 1            : "1: Insitu" [Morphing:NO;  Move Fixed Nodes:NO] 
+  
+ STORAGE SCHEME              : Sparse  
+ SORTING METHOD              : AMD  
+ SOLUTION TYPE               : Direct  
+  
+ NUMBER OF EQUATIONS         : 20539 
+ MATRIX FILL-IN              : 85.0% 
+ [K] MATRIX SIZE             : 9.8 MB 
+ OPTIMUM RAM NEEDED          : 2.2 MB 
+ FREE SCRATCH SPACE          : 358.1 GB 
+  
+ START INCREMENT 1           : "Increment [Stage 1]" 
+  
+ CURRENT LOAD FACTORS: 
+  1.00000E+00  1.00000E+00 
+  
+ ITERATION 1 INCREMENT 1 [Stage 1] 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   7.19638E-10 -3.48257E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    7.19638E-10 -3.48257E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -2.64000E+04 -3.45441E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00 -8.84421E+11 
+  
+ Reducing 20539 Equations (Using 9.8 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.408251E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 1.232323E+09 (Node 67 DY) 
+  
+ MAX TRANSLATION INCREMENT   : (-1.167E-06, -1.346E-01,  0.000E+00) at Node 1643 
+  
+ DISPLACEMENT NORM           : 1.000000E+00 
+ FORCE/MOMENT NORM           : 1.995620E+00 
+  
+ ITERATION 2 INCREMENT 1 [Stage 1] 
+  
+ MAX RESIDUAL NODE FORCE     : 2.496E+02 at Node 1051 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   2.24873E-09 -3.48257E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    2.24873E-09 -3.48257E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -7.02072E+01 -2.91286E+06  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00 -7.45847E+08 
+  
+ Reducing 20539 Equations (Using 9.8 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.405554E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 1.224823E+09 (Node 67 DY) 
+  
+ MAX TRANSLATION INCREMENT   : ( 0.000E+00, -2.105E-04,  0.000E+00) at Node 1644 
+  
+ DISPLACEMENT NORM           : 1.680530E-03 [Change Ratio = 1.68053E-03 - Decreased] 
+ FORCE/MOMENT NORM           : 4.372000E-03 [Change Ratio = 2.19080E-03 - Decreased] 
+  
+ ITERATION 3 INCREMENT 1 [Stage 1] 
+  
+ MAX RESIDUAL NODE FORCE     : 8.995E-01 at Node 1059 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates  -1.76465E-09 -3.48257E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total   -1.76465E-09 -3.48257E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -2.77707E-02 -1.88886E+00  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00 -4.86527E+02 
+  
+ Reducing 20539 Equations (Using 9.8 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.405553E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 1.224799E+09 (Node 67 DY) 
+  
+ MAX TRANSLATION INCREMENT   : ( 0.000E+00, -1.679E-09,  0.000E+00) at Node 1674 
+  
+ DISPLACEMENT NORM           : 1.346508E-08 [Change Ratio = 8.01240E-06 - Decreased] 
+ FORCE/MOMENT NORM           : 5.376465E-08 [Change Ratio = 1.22975E-05 - Decreased] 
+  
+ END INCREMENT 1             : Converged at Iteration 3 
+ SAVED AS RESULT CASE        : 1 
+  
+ MAXIMUM DISPLACEMENT MAGNITUDES 
+       DX           DY           DZ           RX           RY           RZ            
+   5.76978E-06  1.34772E-01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ DIRECT SUMMATION OF NODE REACTION FORCES: Increment 1 
+       FX           FY           FZ           MX           MY           MZ            
+   1.27126E-06  3.48257E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ START OF STAGE 2            : "2: 3m" [Morphing:NO;  Move Fixed Nodes:NO] 
+  
+ STORAGE SCHEME              : Sparse  
+ SORTING METHOD              : AMD  
+ SOLUTION TYPE               : Direct  
+  
+ START OF NEW STAGE          : Stage 2 
+ NUMBER OF EQUATIONS         : 20143 
+ MATRIX FILL-IN              : 84.5% 
+ [K] MATRIX SIZE             : 9.2 MB 
+ OPTIMUM RAM NEEDED          : 2.2 MB 
+ FREE SCRATCH SPACE          : 358.1 GB 
+  
+ START INCREMENT 2           : "Increment [Stage 2]" 
+  
+ CURRENT LOAD FACTORS: 
+  1.00000E+00  1.00000E+00 
+  
+ ITERATION 1 INCREMENT 2 [Stage 2] 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates  -1.13755E-09 -3.47845E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total   -1.13755E-09 -3.47845E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -5.74252E-07  4.11879E+06  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  2.55365E+08 
+  
+ Reducing 20143 Equations (Using 9.3 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.405553E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 9.672250E+08 (Node 9746 DY) 
+  
+ MAX TRANSLATION INCREMENT   : ( 7.727E-03, -1.553E-01,  0.000E+00) at Node 9497 
+  
+ DISPLACEMENT NORM           : 4.628238E-01 
+ FORCE/MOMENT NORM           : 3.748798E-01 
+  
+ ITERATION 2 INCREMENT 2 [Stage 2] 
+  
+ MAX RESIDUAL NODE FORCE     : 5.492E+02 at Node 9560 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   2.00316E-09 -3.47845E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    2.00316E-09 -3.47845E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -2.19801E+05 -8.73371E+04  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00 -1.22102E+06 
+  
+ Reducing 20143 Equations (Using 9.3 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403917E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 9.733891E+08 (Node 9746 DY) 
+  
+ MAX TRANSLATION INCREMENT   : (-7.725E-05, -4.555E-04,  0.000E+00) at Node 9660 
+  
+ DISPLACEMENT NORM           : 1.017459E-03 [Change Ratio = 2.19837E-03 - Decreased] 
+ FORCE/MOMENT NORM           : 5.202757E-03 [Change Ratio = 1.38785E-02 - Decreased] 
+  
+ ITERATION 3 INCREMENT 2 [Stage 2] 
+  
+ MAX RESIDUAL NODE FORCE     : 2.411E+01 at Node 9461 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   1.02727E-09 -3.47845E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    1.02727E-09 -3.47845E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -4.21029E+00 -3.04164E-01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  2.89060E+02 
+  
+ Reducing 20143 Equations (Using 9.3 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403922E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 9.733608E+08 (Node 9746 DY) 
+  
+ MAX TRANSLATION INCREMENT   : ( 3.174E-07,  3.462E-07,  0.000E+00) at Node 9461 
+  
+ DISPLACEMENT NORM           : 1.096997E-07 [Change Ratio = 1.07817E-04 - Decreased] 
+ FORCE/MOMENT NORM           : 6.850260E-06 [Change Ratio = 1.31666E-03 - Decreased] 
+  
+ END INCREMENT 2             : Converged at Iteration 3 
+ SAVED AS RESULT CASE        : 2 
+  
+ MAXIMUM DISPLACEMENT MAGNITUDES 
+       DX           DY           DZ           RX           RY           RZ            
+   4.17421E-02  2.23660E-01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ DIRECT SUMMATION OF NODE REACTION FORCES: Increment 2 
+       FX           FY           FZ           MX           MY           MZ            
+  -1.46450E-06  3.47845E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ START OF STAGE 3            : "3: 6m" [Morphing:NO;  Move Fixed Nodes:NO] 
+  
+ STORAGE SCHEME              : Sparse  
+ SORTING METHOD              : AMD  
+ SOLUTION TYPE               : Direct  
+  
+ START OF NEW STAGE          : Stage 3 
+ NUMBER OF EQUATIONS         : 19549 
+ MATRIX FILL-IN              : 84.5% 
+ [K] MATRIX SIZE             : 9.0 MB 
+ OPTIMUM RAM NEEDED          : 2.2 MB 
+ FREE SCRATCH SPACE          : 358.1 GB 
+  
+ START INCREMENT 3           : "Increment [Stage 3]" 
+  
+ CURRENT LOAD FACTORS: 
+  1.00000E+00  1.00000E+00 
+  
+ ITERATION 1 INCREMENT 3 [Stage 3] 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   4.22915E-11 -3.47433E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    4.22915E-11 -3.47433E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector   1.56776E-04  4.11879E+06  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  2.55417E+08 
+  
+ Reducing 19549 Equations (Using 9.0 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403922E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 8.261553E+08 (Node 8866 DY) 
+  
+ MAX TRANSLATION INCREMENT   : (-1.896E-02, -1.065E-02,  0.000E+00) at Node 8768 
+  
+ DISPLACEMENT NORM           : 2.127003E-02 
+ FORCE/MOMENT NORM           : 1.835895E-01 
+  
+ ITERATION 2 INCREMENT 3 [Stage 3] 
+  
+ MAX RESIDUAL NODE FORCE     : 5.404E+02 at Node 16 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   1.33082E-09 -3.47433E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    1.33082E-09 -3.47433E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -4.83310E+03 -9.95372E+01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  6.15141E+04 
+  
+ Reducing 19549 Equations (Using 9.0 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403831E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 8.298702E+08 (Node 8866 DY) 
+  
+ MAX TRANSLATION INCREMENT   : ( 1.646E-04, -1.096E-04,  0.000E+00) at Node 1211 
+  
+ DISPLACEMENT NORM           : 1.355521E-04 [Change Ratio = 6.37292E-03 - Decreased] 
+ FORCE/MOMENT NORM           : 3.556476E-03 [Change Ratio = 1.93719E-02 - Decreased] 
+  
+ ITERATION 3 INCREMENT 3 [Stage 3] 
+  
+ MAX RESIDUAL NODE FORCE     : 1.505E+01 at Node 1209 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   3.21688E-09 -3.47433E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    3.21688E-09 -3.47433E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -1.62421E-01 -4.25260E-03  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  1.15720E+02 
+  
+ Reducing 19549 Equations (Using 9.0 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403831E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 8.298234E+08 (Node 8866 DY) 
+  
+ MAX TRANSLATION INCREMENT   : ( 1.538E-07,  1.137E-07,  0.000E+00) at Node 8768 
+  
+ DISPLACEMENT NORM           : 5.818579E-08 [Change Ratio = 4.29250E-04 - Decreased] 
+ FORCE/MOMENT NORM           : 3.145426E-06 [Change Ratio = 8.84422E-04 - Decreased] 
+  
+ END INCREMENT 3             : Converged at Iteration 3 
+ SAVED AS RESULT CASE        : 3 
+  
+ MAXIMUM DISPLACEMENT MAGNITUDES 
+       DX           DY           DZ           RX           RY           RZ            
+   4.07240E-02  2.27465E-01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ DIRECT SUMMATION OF NODE REACTION FORCES: Increment 3 
+       FX           FY           FZ           MX           MY           MZ            
+   2.70549E-07  3.47433E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ START OF STAGE 4            : "4: 12m" [Morphing:NO;  Move Fixed Nodes:NO] 
+  
+ STORAGE SCHEME              : Sparse  
+ SORTING METHOD              : AMD  
+ SOLUTION TYPE               : Direct  
+  
+ START OF NEW STAGE          : Stage 4 
+ NUMBER OF EQUATIONS         : 18361 
+ MATRIX FILL-IN              : 83.9% 
+ [K] MATRIX SIZE             : 8.1 MB 
+ OPTIMUM RAM NEEDED          : 2.2 MB 
+ FREE SCRATCH SPACE          : 358.1 GB 
+  
+ START INCREMENT 4           : "Increment [Stage 4]" 
+  
+ CURRENT LOAD FACTORS: 
+  1.00000E+00  1.00000E+00 
+  
+ ITERATION 1 INCREMENT 4 [Stage 4] 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   2.15005E-09 -3.46609E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    2.15005E-09 -3.46609E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector   1.27961E-04  8.23759E+06  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  5.10840E+08 
+  
+ Reducing 18361 Equations (Using 8.1 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403831E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 9.988087E+08 (Node 8965 DY) 
+  
+ MAX TRANSLATION INCREMENT   : ( 1.195E-02,  2.402E-02,  0.000E+00) at Node 20 
+  
+ DISPLACEMENT NORM           : 2.864953E-02 
+ FORCE/MOMENT NORM           : 1.818718E-01 
+  
+ ITERATION 2 INCREMENT 4 [Stage 4] 
+  
+ MAX RESIDUAL NODE FORCE     : 5.122E+02 at Node 19 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates  -8.98581E-10 -3.46609E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total   -8.98581E-10 -3.46609E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -1.56015E+04 -2.24269E+02  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  2.14524E+05 
+  
+ Reducing 18361 Equations (Using 8.1 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403602E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 1.004028E+09 (Node 8965 DY) 
+  
+ MAX TRANSLATION INCREMENT   : (-1.749E-04, -1.148E-04,  0.000E+00) at Node 19 
+  
+ DISPLACEMENT NORM           : 1.434742E-04 [Change Ratio = 5.00791E-03 - Decreased] 
+ FORCE/MOMENT NORM           : 3.212323E-03 [Change Ratio = 1.76626E-02 - Decreased] 
+  
+ ITERATION 3 INCREMENT 4 [Stage 4] 
+  
+ MAX RESIDUAL NODE FORCE     : 1.253E+01 at Node 8965 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   5.95719E-11 -3.46609E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    5.95719E-11 -3.46609E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -1.66191E-01 -5.43110E-03  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  4.77367E+01 
+  
+ Reducing 18361 Equations (Using 8.1 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403602E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 1.003947E+09 (Node 8965 DY) 
+  
+ MAX TRANSLATION INCREMENT   : ( 1.169E-07,  9.314E-08,  0.000E+00) at Node 8965 
+  
+ DISPLACEMENT NORM           : 3.553669E-08 [Change Ratio = 2.47687E-04 - Decreased] 
+ FORCE/MOMENT NORM           : 2.239899E-06 [Change Ratio = 6.97283E-04 - Decreased] 
+  
+ END INCREMENT 4             : Converged at Iteration 3 
+ SAVED AS RESULT CASE        : 4 
+  
+ MAXIMUM DISPLACEMENT MAGNITUDES 
+       DX           DY           DZ           RX           RY           RZ            
+   3.73303E-02  2.32959E-01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ DIRECT SUMMATION OF NODE REACTION FORCES: Increment 4 
+       FX           FY           FZ           MX           MY           MZ            
+   4.54951E-07  3.46609E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ START OF STAGE 5            : "5: 18m" [Morphing:NO;  Move Fixed Nodes:NO] 
+  
+ STORAGE SCHEME              : Sparse  
+ SORTING METHOD              : AMD  
+ SOLUTION TYPE               : Direct  
+  
+ START OF NEW STAGE          : Stage 5 
+ NUMBER OF EQUATIONS         : 17173 
+ MATRIX FILL-IN              : 83.9% 
+ [K] MATRIX SIZE             : 7.6 MB 
+ OPTIMUM RAM NEEDED          : 2.1 MB 
+ FREE SCRATCH SPACE          : 358.1 GB 
+  
+ START INCREMENT 5           : "Increment [Stage 5]" 
+  
+ CURRENT LOAD FACTORS: 
+  1.00000E+00  1.00000E+00 
+  
+ ITERATION 1 INCREMENT 5 [Stage 5] 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates  -2.54659E-10 -3.45786E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total   -2.54659E-10 -3.45786E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector   7.55506E-05  8.23759E+06  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  5.10845E+08 
+  
+ Reducing 17173 Equations (Using 7.6 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403602E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 8.033024E+08 (Node 328 DX) 
+  
+ MAX TRANSLATION INCREMENT   : ( 1.074E-02,  2.204E-02,  0.000E+00) at Node 26 
+  
+ DISPLACEMENT NORM           : 1.854759E-02 
+ FORCE/MOMENT NORM           : 1.570051E-01 
+  
+ ITERATION 2 INCREMENT 5 [Stage 5] 
+  
+ MAX RESIDUAL NODE FORCE     : 4.337E+02 at Node 25 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates  -3.86535E-10 -3.45786E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total   -3.86535E-10 -3.45786E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -1.46664E+04 -1.18326E+02  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  2.14397E+05 
+  
+ Reducing 17173 Equations (Using 7.6 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403218E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 8.056760E+08 (Node 328 DX) 
+  
+ MAX TRANSLATION INCREMENT   : (-1.248E-04, -7.349E-05,  0.000E+00) at Node 25 
+  
+ DISPLACEMENT NORM           : 8.646541E-05 [Change Ratio = 4.66181E-03 - Decreased] 
+ FORCE/MOMENT NORM           : 2.263285E-03 [Change Ratio = 1.44154E-02 - Decreased] 
+  
+ ITERATION 3 INCREMENT 5 [Stage 5] 
+  
+ MAX RESIDUAL NODE FORCE     : 9.178E+00 at Node 30 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   8.84484E-10 -3.45786E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    8.84484E-10 -3.45786E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -1.36581E-01 -1.70383E-03  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  4.64070E+01 
+  
+ Reducing 17173 Equations (Using 7.6 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403219E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 8.056698E+08 (Node 328 DX) 
+  
+ MAX TRANSLATION INCREMENT   : ( 6.203E-08,  4.825E-08,  0.000E+00) at Node 326 
+  
+ DISPLACEMENT NORM           : 1.966628E-08 [Change Ratio = 2.27447E-04 - Decreased] 
+ FORCE/MOMENT NORM           : 1.350383E-06 [Change Ratio = 5.96647E-04 - Decreased] 
+  
+ END INCREMENT 5             : Converged at Iteration 3 
+ SAVED AS RESULT CASE        : 5 
+  
+ MAXIMUM DISPLACEMENT MAGNITUDES 
+       DX           DY           DZ           RX           RY           RZ            
+   3.28976E-02  2.36354E-01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ DIRECT SUMMATION OF NODE REACTION FORCES: Increment 5 
+       FX           FY           FZ           MX           MY           MZ            
+   4.71249E-07  3.45786E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ START OF STAGE 6            : "6: 24m" [Morphing:NO;  Move Fixed Nodes:NO] 
+  
+ STORAGE SCHEME              : Sparse  
+ SORTING METHOD              : AMD  
+ SOLUTION TYPE               : Direct  
+  
+ START OF NEW STAGE          : Stage 6 
+ NUMBER OF EQUATIONS         : 15985 
+ MATRIX FILL-IN              : 83.5% 
+ [K] MATRIX SIZE             : 6.8 MB 
+ OPTIMUM RAM NEEDED          : 2.0 MB 
+ FREE SCRATCH SPACE          : 358.1 GB 
+  
+ START INCREMENT 6           : "Increment [Stage 6]" 
+  
+ CURRENT LOAD FACTORS: 
+  1.00000E+00  1.00000E+00 
+  
+ ITERATION 1 INCREMENT 6 [Stage 6] 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   4.01269E-09 -3.44962E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    4.01269E-09 -3.44962E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector   4.88885E-05  8.23759E+06  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  5.10842E+08 
+  
+ Reducing 15985 Equations (Using 6.9 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.403219E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 1.054192E+09 (Node 429 DX) 
+  
+ MAX TRANSLATION INCREMENT   : ( 8.718E-03,  1.668E-02,  0.000E+00) at Node 32 
+  
+ DISPLACEMENT NORM           : 9.845156E-03 
+ FORCE/MOMENT NORM           : 1.333936E-01 
+  
+ ITERATION 2 INCREMENT 6 [Stage 6] 
+  
+ MAX RESIDUAL NODE FORCE     : 3.434E+02 at Node 31 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates   4.39286E-10 -3.44962E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total    4.39286E-10 -3.44962E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -8.87203E+03 -5.76657E+01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  1.56967E+05 
+  
+ Reducing 15985 Equations (Using 6.9 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.402351E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 1.052046E+09 (Node 429 DX) 
+  
+ MAX TRANSLATION INCREMENT   : ( 7.749E-05, -3.970E-05,  0.000E+00) at Node 425 
+  
+ DISPLACEMENT NORM           : 3.986891E-05 [Change Ratio = 4.04960E-03 - Decreased] 
+ FORCE/MOMENT NORM           : 1.342384E-03 [Change Ratio = 1.00633E-02 - Decreased] 
+  
+ ITERATION 3 INCREMENT 6 [Stage 6] 
+  
+ MAX RESIDUAL NODE FORCE     : 4.918E+00 at Node 430 
+  
+ SUMMATION OF APPLIED LOADS  
+              FX           FY           FZ           MX           MY           MZ      
+ Plates  -1.65528E-10 -3.44962E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Total   -1.65528E-10 -3.44962E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+ Vector  -5.52643E-02 -1.80949E-04  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00 
+  
+ SUMMATION OF MOMENTS OF APPLIED LOADS ABOUT THE ORIGIN [Load Vector] 
+              MXo          MYo          MZo           
+          0.00000E+00  0.00000E+00  1.12379E+01 
+  
+ Reducing 15985 Equations (Using 6.9 MB RAM)... 
+  
+ MAXIMUM PIVOT               : 2.402352E+10 (Node 1752 DY) 
+ MINIMUM PIVOT               : 1.052026E+09 (Node 429 DX) 
+  
+ MAX TRANSLATION INCREMENT   : ( 1.676E-08, -9.749E-09,  0.000E+00) at Node 425 
+  
+ DISPLACEMENT NORM           : 3.617062E-09 [Change Ratio = 9.07239E-05 - Decreased] 
+ FORCE/MOMENT NORM           : 3.865878E-07 [Change Ratio = 2.87986E-04 - Decreased] 
+  
+ END INCREMENT 6             : Converged at Iteration 3 
+ SAVED AS RESULT CASE        : 6 
+  
+ MAXIMUM DISPLACEMENT MAGNITUDES 
+       DX           DY           DZ           RX           RY           RZ            
+   3.15679E-02  2.37363E-01  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ DIRECT SUMMATION OF NODE REACTION FORCES: Increment 6 
+       FX           FY           FZ           MX           MY           MZ            
+   1.24006E-06  3.44962E+09  0.00000E+00  0.00000E+00  0.00000E+00  0.00000E+00   
+  
+ TOTAL NUMBER OF ITERATIONS  : 18 
+  
+ TOTAL CPU TIME              : 7.734 Seconds ( 0:00:08) 
+  
+*Solution completed on 27/03/2025 at 10:55:48 
+*Solution time: 12 Seconds 
+  
+ 
+*SUMMARY OF MESSAGES
+*Number of Notes    : 0
+*Number of Warnings : 0
+*Number of Errors   : 0
+ 
