@@ -2,7 +2,7 @@
 
 These study materials are uploaded in accordance with the IIT(ISM) B.Tech Mining Engineering course structure. Check the course name before proceeding!
 
-[Check Here 👈](https://www.bing.com/ck/a?!&&p=bf92a29e65d855390dec2cda6ca4a77d52275a2b3d60a59fc893b92b0e9d3f7eJmltdHM9MTc3MjU4MjQwMA&ptn=3&ver=2&hsh=4&fclid=31d993d8-2bd7-68f6-00bc-853e2ad7699f&psq=mining+engineering+lecture+plan+iit+ism&u=a1aHR0cHM6Ly9wZW9wbGUuaWl0aXNtLmFjLmluL35hY2FkZW1pY3MvYXNzZXRzL2NvdXJzZV9zdHJ1Y3R1cmUvbmV3L2NhdC9tZS9tZV9uZXcucGRm)
+[Check Here](https://www.bing.com/ck/a?!&&p=bf92a29e65d855390dec2cda6ca4a77d52275a2b3d60a59fc893b92b0e9d3f7eJmltdHM9MTc3MjU4MjQwMA&ptn=3&ver=2&hsh=4&fclid=31d993d8-2bd7-68f6-00bc-853e2ad7699f&psq=mining+engineering+lecture+plan+iit+ism&u=a1aHR0cHM6Ly9wZW9wbGUuaWl0aXNtLmFjLmluL35hY2FkZW1pY3MvYXNzZXRzL2NvdXJzZV9zdHJ1Y3R1cmUvbmV3L2NhdC9tZS9tZV9uZXcucGRm)👈
 
 ### SEMESTER 1
 
